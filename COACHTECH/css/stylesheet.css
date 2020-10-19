@@ -1,0 +1,471 @@
+@charset "utf-8";
+
+/* リセットcss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* 共通のスタイル */
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 30px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.wrap {
+  width: 80%;
+  margin: 0 auto 150px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+header {
+  height: 70px;
+  background: #000;
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
+}
+
+.header-nav li {
+  display: inline-block;
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a:hover{
+  text-decoration: none;
+}
+
+.header-nav a {
+  color: #f2f2f2;
+}
+
+.eyecatch {
+  height: 600px;
+  background: url(../img/eyecatch.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.eyecatch p {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1;
+}
+
+.news {
+  background: #fff;
+  height: 50px;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.date {
+  padding: 5px;
+  font-size: 14px;
+  color: #000;
+}
+
+.article {
+  padding: 5px;
+  margin-left:10px ;
+  font-size: 16px;
+  color: #000;
+}
+
+.news-logo {
+  background-color: gray;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  width: 15%;
+}
+
+#news-logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
+
+.mission img {
+  display: block;
+  width: 40%;
+  position: absolute;
+  right: 5%;
+  bottom: -40%;
+}
+
+#contents {
+  width: 100%;
+  height: 600px;
+  background: #000;
+}
+.contents {
+  position: relative;
+  top: 200px;
+  right: 10%;
+  width: 60%;
+  color: white;
+}
+
+.contents h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contents p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  margin: 10px 0;
+}
+
+.button:hover {
+  background: #cccccc;
+}
+
+.service {
+  background: #cccccc;
+  width: 100%;
+  height: 1300px;
+}
+
+.service2 img {
+  width: 50%;
+  position: absolute;
+  top: 160%;
+  right: 0;
+}
+
+.service1 img {
+  width: 50%;
+  position: absolute;
+  top: 230%;
+  left: 0;
+}
+
+.one {
+  width: 35%;
+  height: 200px;
+  background: #fff;
+  padding: 75px;
+  position: absolute;
+  top: 175%;
+  left: 15%;
+}
+
+.one h3, .one p {
+  padding: 10px;
+}
+
+.two {
+  width: 35%;
+  height: 200px;
+  background: #fff;
+  padding: 75px;
+  position: absolute;
+  top: 240%;
+  right: 15%;
+}
+
+.two h3, .two p {
+  padding: 10px;
+}
+
+.button-detail {
+  display: block;
+  margin: 0 0 0 auto;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+}
+
+.button-detail:hover {
+  background: #cccccc;
+}
+
+
+.details {
+  display: flex;
+  width: 100%;
+  height: 1100px;
+  background: white;
+}
+
+.company-text h2, .recruit-text h2 {
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 170px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.company-text p, .recruit-text p {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+.company {
+  background: url(../img/company.jpeg) no-repeat;
+  background-size: contain;
+  width: 45%;
+  height: 500px;
+  position: absolute;
+  top: 310%;
+  left: 0;
+  color: #fff;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.recruit {
+  background: url(../img/recruit.jpg) no-repeat;
+  background-size: contain;
+  width: 45%;
+  height: 500px;
+  position: absolute;
+  top: 310%;
+  right: 0;
+  color: #fff;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.FAQ {
+  display: flex;
+  width: 80%;
+  height: 100px;
+  background: #000;
+  position: absolute;
+  top: 380%;
+  right: 10%;
+}
+
+.logo {
+  padding: 35px 50px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold; 
+}
+
+.question {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 40px 0 40px 440px;
+}
+
+.contact {
+  background: url(../img/contact-bg.jpg) no-repeat;
+  width: 100%;
+  height: 800px;
+  color: #fff;
+}
+
+.contact-text h1, .contact-text h2, .contact-text h3, .contact-text p {
+  text-align: center;
+}
+
+.contact-text h2 {
+  padding-top: 200px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.contact-text h3 {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-text h1 {
+  padding-top: 50px;
+  font-size: 45px;
+  font-weight: lighter;
+}
+
+.contact-text p {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+.contact-button {
+  display: block;
+  margin: 0 auto 0 auto;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+}
+
+footer {
+  height: auto;
+  background: #000;
+}
+
+.footer-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.footer-nav a:hover{
+  text-decoration: none;
+}
+
+.footer-nav a {
+  color: #f2f2f2;
+}
+
+#footer {
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  color: #fff;
+}
