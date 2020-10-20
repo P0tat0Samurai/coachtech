@@ -166,8 +166,7 @@ header {
 .eyecatch p {
   position: absolute;
   top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
+  left: 10%;
   font-size: 50px;
   font-style: italic;
   font-weight: bold;
@@ -348,7 +347,7 @@ header {
 
 .company {
   background: url(../img/company.jpeg) no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 45%;
   height: 500px;
   position: absolute;
@@ -358,7 +357,7 @@ header {
 
 .recruit {
   background: url(../img/recruit.jpg) no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 45%;
   height: 500px;
   position: absolute;
@@ -403,19 +402,19 @@ header {
   text-align: center;
 }
 
-.contact-text h2 {
+.contact-text h1 {
   padding-top: 200px;
   font-size: 40px;
   font-weight: bold;
 }
 
-.contact-text h3 {
+.contact-text h2 {
   padding-top: 10px;
   font-size: 20px;
   font-weight: bold;
 }
 
-.contact-text h1 {
+.contact-text h3 {
   padding-top: 50px;
   font-size: 45px;
   font-weight: lighter;
