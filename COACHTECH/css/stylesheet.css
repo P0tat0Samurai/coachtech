@@ -178,9 +178,9 @@ header {
 .news {
   background: #fff;
   height: 50px;
-  width: 50%;
+  width: 35%;
   position: absolute;
-  right: 0;
+  right: 10%;
   bottom: 0;
 }
 
@@ -215,24 +215,24 @@ header {
 }
 
 .mission img {
-  display: block;
-  width: 40%;
+  width: 45%;
   position: absolute;
-  right: 5%;
-  bottom: -40%;
+  top: 25%;
+  right: 30px;
 }
 
 #contents {
   width: 100%;
   height: 600px;
   background: #000;
-}
-.contents {
   position: relative;
-  top: 200px;
-  right: 10%;
+}
+
+.contents {
   width: 60%;
   color: white;
+  position: absolute;
+  top: 30%;
 }
 
 .contents h3 {
@@ -260,20 +260,21 @@ header {
 .service {
   background: #cccccc;
   width: 100%;
-  height: 1300px;
+  height: 1400px;
+  position: relative;
 }
 
 .service2 img {
   width: 50%;
   position: absolute;
-  top: 160%;
+  top: 10%;
   right: 0;
 }
 
 .service1 img {
   width: 50%;
   position: absolute;
-  top: 230%;
+  top: 60%;
   left: 0;
 }
 
@@ -283,7 +284,7 @@ header {
   background: #fff;
   padding: 75px;
   position: absolute;
-  top: 175%;
+  top: 15%;
   left: 15%;
 }
 
@@ -297,7 +298,7 @@ header {
   background: #fff;
   padding: 75px;
   position: absolute;
-  top: 240%;
+  top: 65%;
   right: 15%;
 }
 
@@ -319,10 +320,15 @@ header {
 
 
 .details {
-  display: flex;
   width: 100%;
   height: 1100px;
-  background: white;
+  background: #fff;
+}
+
+#details {
+  display: flex;
+  position: relative;
+  top: 200px;
 }
 
 .company-text h2, .recruit-text h2 {
@@ -346,11 +352,8 @@ header {
   width: 45%;
   height: 500px;
   position: absolute;
-  top: 310%;
   left: 0;
   color: #fff;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .recruit {
@@ -359,11 +362,8 @@ header {
   width: 45%;
   height: 500px;
   position: absolute;
-  top: 310%;
   right: 0;
   color: #fff;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .FAQ {
@@ -371,9 +371,9 @@ header {
   width: 80%;
   height: 100px;
   background: #000;
-  position: absolute;
-  top: 380%;
-  right: 10%;
+  position: relative;
+  top: 80%;
+  left: 10%;
 }
 
 .logo {
@@ -387,7 +387,9 @@ header {
   color: #fff;
   font-size: 20px;
   font-weight: bolder;
-  padding: 40px 0 40px 440px;
+  margin: 40px;
+  position: absolute;
+  left: 42%;
 }
 
 .contact {
