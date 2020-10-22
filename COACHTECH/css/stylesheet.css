@@ -174,14 +174,17 @@ header {
   line-height: 1;
 }
 
+.news-wrapper {
+  width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
 .news {
   background: #fff;
   height: 50px;
-  width: 35%;
-  position: absolute;
-  right: 10%;
-  bottom: 0;
-  padding: 5px;
+  width: 80%;
 }
 
 .date {
@@ -192,7 +195,7 @@ header {
 
 .article {
   padding: 5px;
-  margin-left:10px ;
+  margin-left: 10px;
   font-size: 16px;
   color: #000;
   line-height: 1.5;
@@ -204,7 +207,7 @@ header {
   right: 0;
   bottom: 0;
   height: 50px;
-  width: 15%;
+  width: 20%;
 }
 
 #news-logo {
@@ -523,19 +526,22 @@ footer {
   left: 5%;
 }
 
+.news-wrapper {
+  width: 100%;
+}
+
 .news {
   width: 80%;
-  height: 70px;
-  position: absolute;
-  left: 0;
+  height: 80px;
 }
 
 .news-logo {
-  width: 18%;
-  height: 70px;
-  position: absolute;
-  right: 0;
-  padding-top: 10px;
+  width: 20%;
+  height: 80px;
+}
+
+#news-logo {
+  line-height: 80px;
 }
 
 .wrap {
@@ -546,6 +552,7 @@ footer {
   width: 40%;
   position: absolute;
   top: 90%;
+  z-index: 1;
 }
 
 .contents {
@@ -568,10 +575,55 @@ footer {
   font-size: 55px;
 }
 
-.service1 img, .service2 img {
+.service {
+  height: 1300px;
+}
+
+.service1 img {
+  width: 90%;
+  position: absolute;
+  top: 55%;
+  left: 5%;
+}
+
+.service2 img {
   width: 90%;
   position: absolute;
   left: 5%;
+}
+
+.one {
+  width: 86%;
+  height: 260px;
+  padding: 10px;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+.one h3, .one p {
+  padding: 10px;
+  line-height: 1.5;
+}
+
+.two {
+  width: 86%;
+  height: 260px;
+  padding: 10px;
+  position: absolute;
+  top: 73.5%;
+  right: 5%;
+}
+
+.two h3, .two p {
+  padding: 10px;
+  line-height: 1.5;
+}
+
+.button-detail {
+  font-size: 20px;
+  padding: 10px 40px;
+  margin: 0 0 10px auto;
 }
 
 #details {
