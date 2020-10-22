@@ -560,6 +560,7 @@ footer {
   position: absolute;
   top: 8%;
   left: 12%;
+  z-index: 2;
 }
 
 .contents h3 {
