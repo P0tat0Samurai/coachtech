@@ -181,6 +181,7 @@ header {
   position: absolute;
   right: 10%;
   bottom: 0;
+  padding: 5px;
 }
 
 .date {
@@ -194,6 +195,7 @@ header {
   margin-left:10px ;
   font-size: 16px;
   color: #000;
+  line-height: 1.5;
 }
 
 .news-logo {
@@ -232,17 +234,20 @@ header {
   color: white;
   position: absolute;
   top: 30%;
+  left: 20%;
 }
 
 .contents h3 {
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 15px;
+  line-height: 1.5;
 }
 
 .contents p {
-  font-size: 20px;
+  font-size: 21px;
   margin-bottom: 15px;
+  line-height: 1.5;
 }
 
 .button {
@@ -289,6 +294,7 @@ header {
 
 .one h3, .one p {
   padding: 10px;
+  line-height: 1.5;
 }
 
 .two {
@@ -303,6 +309,7 @@ header {
 
 .two h3, .two p {
   padding: 10px;
+  line-height: 1.5;
 }
 
 .button-detail {
@@ -325,7 +332,6 @@ header {
 }
 
 #details {
-  display: flex;
   position: relative;
   top: 200px;
 }
@@ -400,6 +406,7 @@ header {
 
 .contact-text h1, .contact-text h2, .contact-text h3, .contact-text p {
   text-align: center;
+  line-height: 1.5;
 }
 
 .contact-text h1 {
@@ -423,7 +430,7 @@ header {
 .contact-text p {
   padding-top: 50px;
   padding-bottom: 50px;
-  font-size: 20px;
+  font-size: 21px;
   font-weight: lighter;
 }
 
@@ -469,4 +476,157 @@ footer {
   text-align: center;
   line-height: 80px;
   color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  #hamburger {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+  top: 15px;
+  right: 20px;
+  transition: 0.4s;
+}
+
+#hamburger span {
+  position: absolute;
+  left: 2px;
+  display: block;
+  width: 35px;
+  height: 2px;
+  background-color: #fff;
+  transition: 0.8s;
+}
+
+#hamburger span:nth-of-type(1) {
+  top: 10px; 
+}
+
+#hamburger span:nth-of-type(2) {
+  top: 20px; 
+}
+
+#hamburger span:nth-of-type(3) {
+  top: 30px;
+}
+
+.header-nav {
+  display: none;
+}
+
+.eyecatch p {
+  width: 90%;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+.news {
+  width: 80%;
+  height: 70px;
+  position: absolute;
+  left: 0;
+}
+
+.news-logo {
+  width: 18%;
+  height: 70px;
+  position: absolute;
+  right: 0;
+  padding-top: 10px;
+}
+
+.wrap {
+  margin: 0 auto 50px;
+}
+
+.mission img {
+  width: 40%;
+  position: absolute;
+  top: 90%;
+}
+
+.contents {
+  width: 76%;
+  position: absolute;
+  top: 8%;
+  left: 12%;
+}
+
+.contents h3 {
+  font-size: 40px;
+}
+
+.button {
+  font-size: 20px;
+  padding: 10px 30px;
+}
+
+.section-title {
+  font-size: 55px;
+}
+
+.service1 img, .service2 img {
+  width: 90%;
+  position: absolute;
+  left: 5%;
+}
+
+#details {
+  position: relative;
+  top: 5%;
+}
+
+.company {
+  width: 100%;
+  height: 400px;
+}
+
+.recruit {
+  position: absolute;
+  top: 400px;
+  width: 100%;
+  height: 400px;
+}
+
+.FAQ {
+  height: 150px;
+}
+
+.logo {
+  padding: 60px;
+}
+
+.question {
+  padding-top: 25px;
+}
+
+.contact-text {
+  width: 80%;
+  position: absolute;
+  left: 10%;
+}
+
+.contact-text h1 {
+  padding-top: 80px;
+}
+
+.contact-button {
+  padding: 15px 60px;
+  font-size: 16px;
+}
+
+.footer-logo {
+ position: relative;
+ left: 32%;
+ padding-top: 30px;
+ line-height: 0;
+}
+
+.footer-nav {
+  display: none;
+}
+
 }
